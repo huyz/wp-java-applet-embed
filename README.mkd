@@ -33,7 +33,7 @@ see the plugin's [page at wordpress.org](http://wordpress.org/extend/public/java
 Contributions
 -------------
 You're welcome to fork and request pulls.
-I'll try to release regularly to the http://wordpress.org/extend/plugins .
+I'll try to release regularly to http://wordpress.org/extend/plugins.
 
 GPLv2 License
 -------------
