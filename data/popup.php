@@ -55,7 +55,7 @@ foreach ($parameters as $name => $value) {
                     image: '<?php echo($_GET['pluginurl']); ?>/data/loading.gif' */
                     };
                 var parameters = <?php echo(urldecode($_GET['parameters'])); ?>;
-                var version = '1.5';
+                var version = null; //'1.5';
                 jae_deployJava.runApplet(attributes, parameters, version);
                 /* ]]> */
             </script>

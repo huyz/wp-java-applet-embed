@@ -267,7 +267,7 @@ function embed_java_applet($attributes, $altcontent=null) {
                     image: '{$settings['pluginurl']}/data/loading.gif' */
                     };
                 var parameters = $parameters_json;
-                var version = '1.5';
+                var version = null; //'1.5';
                 jae_deployJava.runApplet(attributes, parameters, version);
                 /* ]]> */
             </script>
