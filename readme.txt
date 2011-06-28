@@ -119,12 +119,18 @@ attributes of `[param]` shortcodes.  Thus, this is allowed:
 
 == Frequently Asked Questions ==
 
-= Why use the 'onclick' method? =
+= Why use the 'onclick' loading method? =
 
 Loading a Java applet takes time, especially the first time the Java plug-in
 is loaded by the browser and especially the first time the JAR file is
 downloaded by the browser.  Your users may be annoyed if your page immediately
 does all this without their initial confirmation and causes delays.
+
+= Why use the 'inline' loading method? =
+
+The 'onclick' and 'popup' methods require users to run Javascript, while the
+'inline' method doesn't.  These days, everyone should be running Javascript
+but who knows what your crazy requirements.
 
 = Will this plugin work with WordPress 2.x or 3.1? =
 
