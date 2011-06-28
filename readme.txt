@@ -145,6 +145,10 @@ management of WordPress or some other web site.
 If there's enough user demand, I'll look into supporting more file types for
 upload.
 
+= Is there a way to specify a minimum Java version? =
+
+Not right now.  I don't know if there's demand for it.
+
 == Screenshots ==
 
 1. Administration settings
