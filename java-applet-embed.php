@@ -118,8 +118,8 @@ you would any other image, video, or audio file.
 Then, for each Java applet, simply add the shortcode to the content of the appropriate
 post or page.  Multiple applets are allowed.
 </p><p>
-The most basic format is:<code><br />
-[applet code="your.applet.ClassName" file="http://domain.com/full/path/to/yourJar.jar"]</code><br />
+The most basic format is:<br />
+<code>[applet code="your.applet.ClassName" file="http://domain.com/full/path/to/yourJar.jar"]</code><br />
 This shortcode is in non-enclosing form.
 </p><p>
 You can override global default settings by specifying 'width', 'height',
@@ -139,10 +139,10 @@ wrapped in a link and displayed for the user to click; for the 'inline'
 method, it will only be displayed if Java is not installed.
 </p>
 <h4>Examples</h4>
-<p>Example:<code><br />
-[applet code="us.huyz.SlickApplet" file="http://huyz.us/wp-content/uploads/2011/06/slickApplets.jar" method="popup"]Popup the applet &rarr;[/applet]</code><p>
-<p>Example (Note '<code>files/</code>' for multisite): <code><br />
-&lt;div style="text-align:center;"&gt;<br />
+<p>Example:<br />
+<code>[applet code="us.huyz.SlickApplet" file="http://huyz.us/wp-content/uploads/2011/06/slickApplets.jar" method="popup"]Popup the applet &rarr;[/applet]</code><p>
+<p>Example (Note '<code>files/</code>' for multisite):<br />
+<code>&lt;div style="text-align:center;"&gt;<br />
 [applet code="de.mud.jta.Applet" file="http://huyz.us/files/2011/06/jta26.jar" width="600" height="400" method="onclick"]<br />
 [param name="config" value="http://huyz.us/non-wp-content/applet.conf"]<br />
 [param name="Terminal.size" value="[112,24]"]<br />
@@ -157,12 +157,12 @@ As with all WordPress shortcodes, you cannot
 <a href="http://codex.wordpress.org/Shortcode_API#Unclosed_Shortcodes">mix shortcodes</a>
 in enclosing form and non-enclosing (a.k.a. "unclosed") form.
 </p><p>
-Either do <code><br />
-[applet...]<br />
+Either do<br />
+<code>[applet...]<br />
 [applet...]<br />
 [applet...]</code><br />
-or<code><br />
-[applet...]...[/applet]<br />
+or<br />
+<code>[applet...]...[/applet]<br />
 [applet...]...[/applet]<br />
 [applet...]...[/applet]</code><br />
 but don't mix and match within a single post or page.
