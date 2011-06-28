@@ -1,0 +1,52 @@
+Java Applet Embed plugin for WordPress
+======================================
+
+Description
+-----------
+Allows you to insert Java applets into your Wordpress blog.
+
+If you've ever tried to embed a Java applet in a post or page by inserting
+your usual `<applet>` or `<object>` tags, you would have noticed that
+WordPress doesn't recognize the tags and the tags disappear. This plugin
+supports new shortcodes permitting WordPress to recognize and properly render
+the applets.
+
+You can choose among three possible display modes:
+
+1. Inline, loaded immediately
+2. Inline, loaded only when the user clicks
+3. Popup window, loaded only when the user clicks
+
+You can reference your JAR archive with any full URL, even on another web
+site.  And you can even upload the JAR into WordPress using the Media
+Library and then reference the JAR file as you would any other image, video,
+or audio.
+
+It is based on the great work done by
+[ahmattox](http://profiles.wordpress.org/users/ahmattox/) on his
+[WordPress Processing Embed](http://wordpress.org/extend/plugins/wordpress-processing-embed/).
+In fact, it works almost exactly the same way and offers the same features.
+
+For more details, see the plugin's [page at wordpress.org](http://wordpress.org/extend/public/java-applet-embed/).
+
+Contributions
+-------------
+You're welcome to fork and request pulls.  I'll try to release regularly to the `wordpress.org/extend/plugins`.
+
+License
+-------
+Copyright (C) 2011  Huy Z (http://huyz.us)
+Copyright (C) 2010  Anthony Mattox  (email : ahmattox@gmail.com)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as 
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
