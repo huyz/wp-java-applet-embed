@@ -32,6 +32,11 @@ It is based on the great work done by
 [WordPress Processing Embed](http://wordpress.org/extend/plugins/wordpress-processing-embed/).
 In fact, it works almost exactly the same way and offers the same features.
 
+= Usage =
+
+Look at the [Other Notes](http://wordpress.org/extend/plugins/java-applet-embed/other_notes/)
+page.
+
 == Installation ==
 
 The installation procedure is as usual:
@@ -99,7 +104,7 @@ width="1000" height="400" method="onclick"]
 = Details about shortcodes =
 
 As with all WordPress shortcodes, you cannot
-[mix shortcodes](http://codex.wordpress.org/Shortcode_API#Unclosed_Shortcodes]
+[mix shortcodes](http://codex.wordpress.org/Shortcode_API#Unclosed_Shortcodes)
 in enclosing form and non-enclosing (a.k.a. "unclosed") form.
 
 Either do
