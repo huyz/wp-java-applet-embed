@@ -36,7 +36,7 @@ It is based on the great work done by
 In fact, it works almost exactly the same way and offers the same features.
 
 For more details, including screenshots,
-see the plugin's [page at wordpress.org](http://wordpress.org/extend/plugin/java-applet-embed/).
+see the plugin's [page at wordpress.org](http://wordpress.org/extend/plugins/java-applet-embed/screenshots/).
 
 Contributions
 -------------
