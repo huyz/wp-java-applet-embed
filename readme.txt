@@ -1,6 +1,6 @@
 === Java Applet Embed ===
 Contributors: huyz, ahmattox
-Tags: embed, java, applet
+Tags: embed, java, applet, applets, java applet, java applets, jvm, java virtual machine, jdk, jar, class, object
 Tested up to: 3.0.5
 Stable tag: 0.5.1
 
@@ -34,6 +34,12 @@ In fact, it works almost exactly the same way and offers the same features.
 
 Look at the [Other Notes](http://wordpress.org/extend/plugins/java-applet-embed/other_notes/)
 page.
+
+= Contribution =
+
+You're welcome to fork this code at https://github.com/huyz/wp-java-applet-embed
+and request pulls.
+I'll try to release regularly to http://wordpress.org/extend/plugins.
 
 == Installation ==
 
