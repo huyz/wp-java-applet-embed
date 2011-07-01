@@ -2,7 +2,7 @@
 Contributors: huyz, ahmattox
 Tags: embed, java, applet, applets, java applet, java applets, jvm, java virtual machine, jdk, jar, class, object
 Tested up to: 3.0.5
-Stable tag: 0.5.1
+Stable tag: 0.5.1.1
 
 Allows you to insert Java applets into your Wordpress blog.
 
@@ -179,6 +179,12 @@ content* for the user to click.
 5. The rendered post or page with a sample applet.
 
 == Changelog ==
+
+= 0.5.1.1 =
+* Just updates to web page.  No code change.
+
+= 0.5.1 =
+* Just updates to README.  No code change.
 
 = 0.5 =
 * Initial Release, based on [WordPress Processing Embed](http://downloads.wordpress.org/plugin/wordpress-processing-embed.0.5.zip) version 0.5

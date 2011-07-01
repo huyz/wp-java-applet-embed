@@ -2,7 +2,7 @@
 /*
 Plugin Name: Java Applet Embed
 Plugin URI: http://huyz.us/wp-java-applet-embed/
-Version: 0.5.1
+Version: 0.5.1.1
 Author: Huy Z, Anthony Mattox
 Description: Embeds Java applets into posts or pages. | <a href="options-general.php?page=java-applet-embed.php">Settings</a>
 Author URI: http://huyz.us/, http://www.anthonymattox.com
