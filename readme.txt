@@ -8,8 +8,6 @@ Allows you to embed Java applets into your Wordpress blog.
 
 == Description ==
 
-Allows you to insert Java applets into your Wordpress blog.
-
 If you've ever tried to embed a Java applet in a post or page by inserting
 your usual `<applet>` or `<object>` tags, you would have noticed that
 WordPress doesn't recognize the tags and the tags disappear. This plugin
