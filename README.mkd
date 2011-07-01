@@ -36,13 +36,13 @@ It is based on the great work done by
 In fact, it works almost exactly the same way and offers the same features.
 
 For more details, including screenshots,
-see the plugin's [page at wordpress.org](http://wordpress.org/extend/public/java-applet-embed/).
+see the plugin's [page at wordpress.org](http://wordpress.org/extend/plugin/java-applet-embed/).
 
 Contributions
 -------------
 You're welcome to fork this code at https://github.com/huyz/wp-java-applet-embed
 and request pulls.
-I'll try to release regularly to http://wordpress.org/extend/plugins.
+I'll try to release regularly to http://wordpress.org/extend/plugins/java-applet-embed/.
 
 [GPLv2 License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 ----------------------------------------------------------------------
