@@ -2,7 +2,7 @@
 Contributors: huyz, ahmattox
 Tags: embed, java, applet
 Tested up to: 3.0.5
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 Allows you to embed Java applets into your Wordpress blog.
 
