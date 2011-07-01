@@ -310,7 +310,7 @@ function embed_java_applet($attributes, $altcontent=null) {
                     <param name=\"test_string\" value=\"inner\" />
                     
                     <p>
-" . ( isset($altcontent) ? $altcontent : "" ) . "
+" . ( !is_null($altcontent) ? $altcontent : "" ) . "
                         <strong>This browser does not have a Java Plug-in.
                         <br />
                         <a href=\"http://www.java.com/getjava\" title=\"Download Java Plug-in\">Get the latest Java Plug-in here.</a>
@@ -338,8 +338,12 @@ function embed_java_applet($attributes, $altcontent=null) {
               *   Popup
               */
             // Apostrophes (and backslashes) need to be escaped for JS, not HTML attribute value
-            $altcontent_esc = preg_replace('/([\'\\\\]|\n)/', '\\\\$1', $altcontent);
-            $altcontent_esc = htmlspecialchars($altcontent_esc);
+            if (!is_null($altcontent)) {
+                $altcontent_esc = preg_replace('/([\'\\\\]|\n)/', '\\\\$1', $altcontent);
+                $altcontent_esc = htmlspecialchars($altcontent_esc);
+            } else {
+                $altcontent_esc = "";
+            }
             // NOTE: passing the JSON as a string will make it easier to encodeURIcomponent in JS;
             // hence the single quotes, unlike for "On Click".
             $parameters_json_esc = preg_replace('/([\'\\\\]|\n)/', '\\\\$1', $parameters_json);
