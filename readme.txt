@@ -4,7 +4,7 @@ Tags: embed, java, applet, applets, java applet, java applets, jvm, java virtual
 Tested up to: 3.0.5
 Stable tag: 0.5.1
 
-Allows you to embed Java applets into your Wordpress blog.
+Allows you to insert Java applets into your Wordpress blog.
 
 == Description ==
 
@@ -17,16 +17,24 @@ WordPress doesn't recognize the tags and the tags disappear. This plugin
 supports new shortcodes permitting WordPress to recognize and properly render
 the applets.
 
-You can choose among three possible display modes:
+You can choose among three possible applet-loading modes:
 
-1. Inline, loaded immediately
-2. Inline, loaded only when the user clicks
-3. Popup window, loaded only when the user clicks
+1. Inline, loaded immediately.
+2. Inline, loaded only when the user clicks. This one is great for letting
+   your visitors control whether to load the JVM or not.
+3. Popup window, loaded only when the user clicks.
 
 You can reference your JAR archive with any full URL, even on another web
 site.  And you can even upload the JAR into WordPress using the Media
 Library and then reference the JAR file as you would any other image, video,
 or audio.
+
+Thanks to the integration of Oracle’s [Deployment
+Toolkit](http://download.oracle.com/javase/6/docs/technotes/guides/jweb/deployment_advice.html#deplToolkit)
+, it works for multiple types of browsers and can offer to download the Java
+Plug-in (this probably needs more testing) or update it if the required JVM
+version doesn’t match (this feature hasn’t yet been implemented but it easily
+could be, if there is demand.)
 
 It is based on the great work done by
 [ahmattox](http://profiles.wordpress.org/users/ahmattox/) on his
