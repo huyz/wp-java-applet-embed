@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Java Applet Embed
-Plugin URI: http://huyz.us/java-applet-embed
+Plugin URI: http://huyz.us/wp-java-applet-embed/
 Version: 0.5
 Author: Huy Z, Anthony Mattox
 Description: Embeds Java applets into posts or pages. | <a href="options-general.php?page=java-applet-embed.php">Settings</a>
-Author URI: http://huyz.us/, http://anthonymattox.com/
+Author URI: http://huyz.us/, http://www.anthonymattox.com
 License: GPLv2
 
 
@@ -37,7 +37,8 @@ if (!class_exists("JavaAppletEmbed")) {
         // add script tag to header to load javascript
         function addHeaderScripts() {
             $html = "\r\n<!-- java applet embed scripts -->\r\n";
-            $html .= '<script src="'.get_bloginfo('url').'/wp-content/plugins/java-applet-embed/data/jae_deployJava.js"></script>';
+            //$html .= '<script src="'.get_bloginfo('url').'/wp-content/plugins/java-applet-embed/data/jae_deployJava.js"></script>';
+            $html .= '<script src="'.get_bloginfo('url').'/wp-content/plugins/java-applet-embed/data/jae_deployJava-min.js"></script>';
             $html .= "\r\n\r\n";
             echo($html);
         }
