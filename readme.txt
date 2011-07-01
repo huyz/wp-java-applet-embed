@@ -155,7 +155,8 @@ Not right now.  I don't know if there's demand for it.
 2. Editing post or page with shortcodes
 3. The rendered post or page.  An applet with the 'onclick' loading method first only shows *alternate
 content* for the user to click.
-4. The rendered post or page, after the user clicks to load the 'onclick applet'.
+4. The Java virtual machine loading, after the user clicks to load the 'onclick applet'.
+5. The rendered post or page with a sample applet.
 
 == Changelog ==
 
