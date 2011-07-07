@@ -44,6 +44,10 @@ You're welcome to fork this code at https://github.com/huyz/wp-java-applet-embed
 and request pulls.
 I'll try to release regularly to http://wordpress.org/extend/plugins/java-applet-embed/.
 
+Feedback
+--------
+You can post comments on the blog post [Easiest way to embed Java in Wordpress](http://huyz.us/2011/the-easiest-way-to-embed-java-in-wordpress/).
+
 [GPLv2 License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 ----------------------------------------------------------------------
 Copyright (C) 2011  Huy Z (http://huyz.us)
